@@ -1,0 +1,44 @@
+.flex-container
+{
+    display: flex;
+}
+p
+{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+input[type=text]{
+    width: 92%;
+    border-radius: 4px;
+    border: none;
+    background-color: #f1f7ef;
+    height: 40px;
+}
+.create-btn{
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background-color: #e6eee4;
+}
+  
+.post
+{
+    background-color: #EBF3E8;
+}
+.gradient-background{
+    background: linear-gradient(300deg, #86A789, #B2C8BA, #D2E3C8);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
